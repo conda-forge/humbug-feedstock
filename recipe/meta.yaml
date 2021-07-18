@@ -1,5 +1,5 @@
 {% set name = "humbug" %}
-{% set version = "0.2.6" %}
+{% set version = "0.2.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/humbug-{{ version }}.tar.gz
-  sha256: f9d6b0d34177298a87464d797400083fc93eb6abe05a32e944218b92151c7914
+  sha256: ee85cd404b138dd7fdb30e499bb9f10298c1f28acc76b6386a182a177b8f88a3
 
 build:
   number: 0
